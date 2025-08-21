@@ -85,3 +85,4 @@ with tab_eml:
 
             with st.expander("Raw body (first 5,000 chars)"):
                 st.text((body or "")[:5000])
+
